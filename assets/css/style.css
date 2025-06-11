@@ -15,7 +15,6 @@ body {
 	background-color: #FF6900;
 }
 
-
 .bg-green {
 	background-color: green;
 }
@@ -50,11 +49,11 @@ header {
 }
 
 .header-container {
-	display: flex;
+    display: flex;
     align-items: center;
-    justify-content: space-around;
-	padding: 20px;
-	box-shadow: 0 2px 2px rgb(117, 117, 117);
+    justify-content: space-between;
+    padding: 20px 200px;
+    box-shadow: 0 2px 2px rgb(117, 117, 117);
 }
 
 
@@ -100,7 +99,7 @@ main {
 .row {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 20px;
+	gap: 30px;
 }
 
 .col-33 {
@@ -115,6 +114,15 @@ main {
 
 .card img {
 	width: 100%;
+}
+
+.discounted-price {
+	color: red;
+	font-weight: bold;
+}
+
+.full-price {
+	text-decoration: line-through;
 }
 
 .card-labels {
@@ -154,3 +162,4 @@ main {
 .card:hover .front-img {
 	display: none;
 }
+
