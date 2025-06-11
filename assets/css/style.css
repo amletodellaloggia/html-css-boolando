@@ -15,10 +15,33 @@ body {
 	background-color: #FF6900;
 }
 
+
+.bg-green {
+	background-color: green;
+}
+
+.bg-gold {
+	background-color: gold;
+}
+
+.border-black {
+	border: 1px solid black;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.h-500 {
+	height: 500px;
+}
+
+
 /* header */
 
 header {
-	width: 1200px;
+	width: 100%;
+	position: fixed;
 }
 
 .header-container {
@@ -26,7 +49,6 @@ header {
     align-items: center;
     justify-content: space-around;
 	padding: 20px;
-	height: 25px;
 	box-shadow: 0 2px 2px rgb(117, 117, 117);
 }
 
@@ -60,10 +82,34 @@ header {
 /* main */
 
 main {
-	width: 1200px;
+	padding-top: 100px;
+	margin: 0px 10px;
 }
 
 .main-container {
-	background-color: red;
-	height: 500px;
+	max-width: 1200px;
+	margin: 0 auto;
+	
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-33 {
+	width: calc(100% / 3);
+}
+
+/* cards */
+
+.card img{
+	position: relative;
+	width: 100%;
+}
+
+.discount {
+	position: absolute;
+	padding: 10px;
+	color: white;
 }
