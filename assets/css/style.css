@@ -117,11 +117,16 @@ main {
 	width: 100%;
 }
 
+.card-labels {
+	position: absolute;
+}
+
 .discount {
 	position: absolute;
     padding: 5px 10px;
     bottom: 50px;
     left: 0px;
+	font-weight: 600;
     color: white;
 }
 
@@ -130,6 +135,22 @@ main {
     padding: 5px 10px;
     bottom: 50px;
     left: 65px;
+	font-weight: 600;
     color: white;
 }
 
+.front-img {
+	display: block;
+}
+
+.back-img {
+	display: none;
+}
+
+.card:hover .back-img {
+	display: block;
+}
+
+.card:hover .front-img {
+	display: none;
+}
