@@ -4,3 +4,20 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+/* utils */
+
+.bg-orange {
+	background-color: #FF6900;
+}
+
+.text-white {
+	color: white;
+}
+
+/* header */
+
+header {
+	width: 1200px;
+}
+
