@@ -118,6 +118,12 @@ main {
 	width: calc(100% / 3 - 20px);
 }
 
+.text-bold a{
+	text-decoration: none;
+	color: cadetblue;
+}
+
+
 /* cards */
 
 .card{
