@@ -5,15 +5,17 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 /* utils */
 
 .bg-orange {
 	background-color: #FF6900;
 }
 
-.text-white {
-	color: white;
-}
+
 
 /* header */
 
@@ -21,3 +23,11 @@ header {
 	width: 1200px;
 }
 
+.header-gender-links a{
+	text-decoration: none;
+	color: white;
+}
+
+.header-user-links i{
+	color: white;
+}
