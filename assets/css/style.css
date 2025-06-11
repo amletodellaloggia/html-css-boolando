@@ -56,3 +56,14 @@ header {
 #boolean-logo {
 	height: 25px;
 }
+
+/* main */
+
+main {
+	width: 1200px;
+}
+
+.main-container {
+	background-color: red;
+	height: 500px;
+}
